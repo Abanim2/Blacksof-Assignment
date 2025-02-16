@@ -18,13 +18,11 @@ const GetInTouch = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        // Form submission logic goes here
         console.log('Form submitted:', formData);
     };
 
     return (
         <div className="flex bg-blue-600 text-white p-10 space-x-10">
-            {/* Address Section */}
             <div className="flex-1 space-y-8 p-6">
                 <h2 className="text-4xl font-bold">Contact Us</h2>
                 <hr className='w-14'/>
@@ -34,7 +32,6 @@ const GetInTouch = () => {
                 <p><b>Email :</b><div>info@supremegroup.co.in</div></p>
             </div>
 
-            {/* Form Section */}
             <div className="flex-1 text-black p-6">
                 <form onSubmit={handleSubmit} className="space-y-4">
                     <div>
